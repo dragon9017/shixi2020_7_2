@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.uustop.project.system.school.mapper.SchoolMapper">
+
+    <resultMap type="com.uustop.project.system.school.domain.School" id="SchoolResult">
+        <id property="s_select_id" column="s_select_id"/>
+        <result property="s_pid" column="s_pid"/>
+        <result property="s_name" column="s_name"/>
+        <result property="s_merger_name" column="s_merger_name"/>
+        <result property="s_level" column="s_level"/>
+        <result property="s_tree" column="s_tree"/>
+        <result property="s_first" column="s_first"/>
+        <result property="s_del_flag" column="s_del_flag"/>
+        <result property="s_create_by" column="s_create_by"/>
+        <result property="s_create_time" column="s_create_time"/>
+        <result property="s_update_by" column="s_update_by"/>
+        <result property="s_update_time" column="s_update_time"/>
+        <!--<association property="dept" column="dept_id" javaType="Dept" resultMap="deptResult"/>
+        <collection property="roles" javaType="java.util.List" resultMap="RoleResult"/>-->
+    </resultMap>
+
+
+    <select id="SelecetSchoolList" parameterType="com.uustop.project.system.school.domain.School" resultMap="SchoolResult">
+        /*页面显示学校简称，学校创建者，学校创建时间，学校首字母，学校层级*/
+        /*检索通过学校简称，学校创建者，学校首字母搜索*/
+        select s_select_id, s_pid, s_name, s_merger_name, s_level, s_tree, s_first, s_del_flag, s_create_by, s_create_time, s_update_by, s_update_time
+        from school_select s
+        <where>
+            s.s_del_flag!=1
+        <if test="school.s_name!=' ' and school.s_name!=null ">
+            and school.s_name like concat('%',#{school.s_name},'%')
+        </if>
+        <if test="school.s_create_by!='' and school.s_create_by!= null">
+            and school.s_create_by like concat('%',#{school.s_create_by},'%')
+        </if>
+        <if test="school.s_first!='' and school.s_first!=null" >
+            and school.s_first like concat('%',#{school.s_first},'%')
+        </if>
+        </where>
+    </select>
+
+    <select id="Select_school_byid" parameterType="long" resultMap="SchoolResult">
+        select * from school_select
+        where s_select_id=#{s_select_id}
+    </select>
+
+    <update id="Update_school" parameterType="com.uustop.project.system.school.domain.School">
+        update school_select set
+        s_update_by=#{school.s_update_by},
+        s_create_by=#{school.s_create_by},
+        s_create_time=NOW(),
+        s_update_time=NOW(),
+        s_first=#{school.s_first},
+        s_merger_name=#{school.s_merger_name},
+        s_name=#{school.s_name},
+        s_level=#{school.s_level},
+        s_del_flag=#{school.s_del_flag}
+        where s_select_id=#{school.s_select_id}
+    </update>
+</mapper>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.uustop.project.system.student.mapper.StudentMapper">
+
+    <resultMap type="com.uustop.project.system.student.domain.Student" id="StudentResult">
+        <id property="s_user_id" column="s_user_id"/>
+        <result property="s_dept_id" column="s_dept_id"/>
+        <result property="s_login_name" column="s_login_name"/>
+        <result property="s_user_name" column="s_user_name"/>
+        <result property="s_user_type" column="s_user_type"/>
+        <result property="s_email" column="s_email"/>
+        <result property="s_phonenumber" column="s_phonenumber"/>
+        <result property="s_sex" column="s_sex"/>
+        <result property="s_avatar" column="s_avatar"/>
+        <result property="s_password" column="s_password"/>
+        <result property="s_salt" column="s_salt"/>
+        <result property="s_status" column="s_status"/>
+        <result property="s_del_flag" column="s_del_flag"/>
+        <result property="s_login_ip" column="s_login_ip"/>
+        <result property="s_login_date" column="s_login_date"/>
+        <result property="s_create_by" column="s_create_by"/>
+        <result property="s_create_time" column="s_create_time"/>
+        <result property="s_update_by" column="s_update_by"/>
+        <result property="s_update_time" column="s_update_time"/>
+        <result property="s_remark" column="s_remark"/>
+        <result property="s_birthday" column="s_birthday"/>
+        <result property="s_QQ" column="s_QQ"/>
+        <result property="update_time" column="update_time"/>
+        <result property="s_login_name" column="s_login_name"/>
+        <!--<association property="dept" column="dept_id" javaType="Dept" resultMap="deptResult"/>
+        <collection property="roles" javaType="java.util.List" resultMap="RoleResult"/>-->
+    </resultMap>
+
+
+
+    <select id="SelectStudentList" resultMap="StudentResult" parameterType="com.uustop.project.system.student.domain.Student">
+        select s_del_flag,s_phonenumber,s_user_id,s_password,s_status,s_email,s_user_name,s_dept_id,
+        s_login_name,s_update_time,s_create_time,s_user_type,s_avatar,s_birthday,s_create_by,s_login_date,
+        s_login_ip,s_QQ,s_remark,s_salt,s_sex,s_update_by
+        from student_personnel s
+        <where>s_del_flag!=1
+            <if test="s_login_name != null and  s_login_name != ''">
+                AND s.s_login_name like concat('%',
+                #{s_login_name},
+                '%'
+                )
+            </if>
+            <if test="s_user_name != null and  s_user_name != ''">
+                AND s.s_user_name =
+                #{s_user_name}
+            </if>
+            <if test="s_phonenumber != null and s_phonenumber != ''">
+                AND s.s_phonenumber like concat('%',
+                #{s_phonenumber},
+                '%'
+                )
+            </if>
+            <if test="s_status != null and s_status != ''">
+                AND s.s_status =
+                #{s_status}
+            </if>
+        </where>
+    </select>
+
+
+    <select id="Select_student_by_id" parameterType="long" resultMap="StudentResult">
+        select * from student_personnel where s_user_id=#{s_user_id}
+    </select>
+
+    <update id="UpdateStudentType" parameterType="com.uustop.project.system.student.domain.Student">
+update student_personnel set s_status=#{#student.s_status} where s_user_id=#{student.s_user_id}
+    </update>
+
+    <select id="Select_status_by_id" parameterType="long" resultType="int">
+        select s_status  from student_personnel
+        where s_user_id=#{s_user_id}
+    </select>
+
+    <update id="UpdateStudent" parameterType="com.uustop.project.system.student.domain.Student">
+        update student_personnel set s_dept_id=#{student.s_dept_id},
+        s_status=#{student.s_status},
+        s_user_name=#{student.s_user_name},
+        s_email=#{student.s_email},
+        s_phonenumber=#{student.s_phonenumber},
+        s_del_flag=#{student.s_del_flag},
+        s_password=#{student.s_password}
+        where s_user_id=#{student.s_user_id}
+    </update>
+
+    <update id="UpdateStudentPassword" parameterType="com.uustop.project.system.student.domain.Student">
+        update student_personnel set s_password=#{student.s_password}
+        where s_user_id=#{student.s_user_id}
+    </update>
+
+
+    <insert id="Insert_student_byid" parameterType="com.uustop.project.system.student.domain.Student">
+        insert into student_personnel(s_dept_id, s_login_name, s_user_name, s_login_date, s_create_time, s_update_time, s_birthday, s_QQ, update_time,s_phonenumber) values
+        (
+        #{student.s_dept_id},
+        #{student.s_login_name},
+        #{student.s_user_name},
+        #{student.s_login_date},
+        NOW(),
+        NOW(),
+        #{student.s_birthday},
+        #{student.s_QQ},
+        NOW(),
+        #{student.s_phonenumber}
+        )
+    </insert>
+
+    <select id="Select_count_loginName" parameterType="string" resultType="int">
+          select count(1) from student_personnel where s_login_name=#{s_login_name}
+        and s_del_flag='0'
+    </select>
+
+    <select id="Select_count_email" resultMap="StudentResult" parameterType="string">
+        select s_email,s_user_id from student_personnel where s_email=#{s_email}
+    </select>
+    <select id="Select_count_Phonenumber" parameterType="long" resultMap="StudentResult">
+        select s_phonenumber,s_user_id from student_personnel where s_phonenumber=#{s_phonenumber}
+    </select>
+</mapper>

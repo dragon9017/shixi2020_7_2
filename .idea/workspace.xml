@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hbsj:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="f4a011d7-61c9-42a1-9269-ca252562266a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ymgj1@192.168.1.250" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ymgj1@192.168.1.250" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ymgj1@192.168.1.250" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ymgj1: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/account/domain/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-384">
+              <caret line="2" column="58" lean-forward="false" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="120" column="30" lean-forward="false" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/zxcss/index.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auditMfrsPrestore.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/operate/mfrs/auditMfrsPrestore.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <marker date="1588662987478" expanded="true" signature="4847:4853" ph="&amp;nbsp;" />
+                <marker date="1588662987478" expanded="true" signature="4853:4859" ph="&amp;nbsp;" />
+                <marker date="1588662987478" expanded="true" signature="4860:4866" ph="&amp;nbsp;" />
+                <marker date="1588662987478" expanded="true" signature="4866:4872" ph="&amp;nbsp;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mfrsNonEssential.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/operate/mfrs/mfrsNonEssential.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/account/controller/AccountController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/main/controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/menu/controller/MenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>expireTime: 30</find>
+      <find>expireTime:</find>
+      <find>shiro.session.expireTime</find>
+      <find>maxRetryCount</find>
+      <find>sess</find>
+      <find>expireTime</find>
+      <find>同一层级</find>
+      <find>red</find>
+      <find>datasource</find>
+      <find>2.0.5.RELEASE</find>
+      <find>63</find>
+      <find>spring.redis.host</find>
+      <find>shiro-redis</find>
+      <find>.logout()</find>
+      <find>/login</find>
+      <find>生产企业</find>
+      <find>redis.passwo</find>
+      <find>获取短信</find>
+      <find>优苗汇</find>
+      <find>selectPersonByEnterprise-Inline</find>
+      <find>mfrs.dis_company</find>
+      <find>dis_company</find>
+      <find>redis</find>
+      <find>dis_contract</find>
+      <find>selectCompanyContractCount</find>
+      <find>selectContractCount</find>
+      <find>check1</find>
+      <find>合作企业：</find>
+      <find>苗</find>
+      <find>http://www.tjzxsw.com</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>企业简称</replace>
+      <replace>生产企业</replace>
+      <replace>企业负责人</replace>
+      <replace>管理员姓名</replace>
+      <replace>登录帐号</replace>
+      <replace>&gt;绑定手机号：</replace>
+      <replace>手机号</replace>
+      <replace>手机号'</replace>
+      <replace>所属角色'</replace>
+      <replace>上级公司/部门</replace>
+      <replace>上级部门</replace>
+      <replace>上级机构</replace>
+      <replace>所属机构</replace>
+      <replace>用户姓名</replace>
+      <replace>组织机构</replace>
+      <replace>联系电话</replace>
+      <replace>d</replace>
+      <replace>'单位地址'</replace>
+      <replace>del_flag =</replace>
+      <replace>sys_dict</replace>
+      <replace>maxRetryCount: 25</replace>
+      <replace>企业授权书</replace>
+      <replace>销售年份</replace>
+      <replace>年份</replace>
+      <replace>增值税发票样本</replace>
+      <replace>请先完成“推广管理”后，再进行完成“企业授权书”的绑定</replace>
+      <replace>再进行“企业授权书”的绑定</replace>
+      <replace>合作企业</replace>
+      <replace>XXX</replace>
+      <replace>http://www.hdzhenergy.cn/</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\zx_code\ymgj\src\main\java\com\uustop\framework\config</dir>
+      <dir>E:\svn\produce\ymgj</dir>
+      <dir>E:\svn\produce\ymgj\src\main\java\com\uustop\common</dir>
+      <dir>E:\svn\produce\ymgj\src\main\java\com\uustop</dir>
+    </dirStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/system/DictTypeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/system/DictDataMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/framework/web/controller/dfd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/system/role/service/IRoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/framework/aspectj/lang/enums/BusinessType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/system/role/service/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/system/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/dept/add.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/dept/dept.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/user/add.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/system/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/system/user/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/system/user/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/system/user/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/system/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/system/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/system/menu/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/user/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/user/user.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/role/role.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/dict/type/type.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/dict/data/data.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/role/rule.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/operate/proAccredit/domain/ProAccredit.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/operate/proAccredit/add.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/operate/company/zizhi.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/uustop/js/ry-ui.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/operate/vaccinePrice/controller/VaccinePriceController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/operate/vaccinePrice/vaccinePrice.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/config/config.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/framework/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/framework/web/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/common/utils/security/ShiroUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/system/user/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/system/PersonMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/system/MainMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/system/main/mapper/MainMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/system/main/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/operate/mfrs/service/IMfrsPictureService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/operate/mfrs/service/MfrsPictureServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/operate/picture/mapper/PictureMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/operate/company/controller/CompanyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/operate/account/controller/AccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/uustop/project/operate/account/domain/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/operate/mfrs/mfrsNonEssential.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ymgj" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ymgj" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1152" />
+    <option name="y" value="450" />
+    <option name="width" value="384" />
+    <option name="height" value="225" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ymgj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ymgj" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ymgj" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ymgj" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="ymgj" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ymgj" type="616d4139:PackageViewModuleNode" />
+              <item name="com.uustop" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.37281552" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mfrs" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\zx_code\ymgj\src\main\java\com\uustop\project\operate\company" />
+      <recent name="E:\zx_code\ymgj\src\main\java\com\uustop\project\operate" />
+      <recent name="E:\code\hbsj\hbsj\src\main\resources\static\ajax\libs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.uustop.project.common.DeleteI.service" />
+      <recent name="com.uustop.project.common.DeleteI" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.uustop.framework.ftp.impl" />
+      <recent name="com.uustop.framework.config" />
+      <recent name="com.uustop.common.support" />
+      <recent name="com.uustop.common.exception" />
+      <recent name="com.uustop.project.system.role.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bbbb\ymgj\src\main\resources\mybatis\operate" />
+      <recent name="E:\svn\produce\ymgj\src\main\java\com\uustop\framework" />
+      <recent name="E:\svn\produce\ymgj\src\main\java\com\uustop\project\system\role\service" />
+      <recent name="E:\svn\produce\ymgj\src\main\resources\templates\system\role" />
+      <recent name="E:\svn\produce\ymgj\src\main\java\com\uustop\project\system\dict\service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UUSTOPApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="dfd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.uustop.framework.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.uustop.framework.web.controller.dfd" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ymgj" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="UUSTOPApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.uustop.UUSTOPApplication" />
+      <module name="ymgj" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.UUSTOPApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Application.dfd" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.dfd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4a011d7-61c9-42a1-9269-ca252562266a" name="Default" comment="" />
+      <created>1552957685387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552957685387</updated>
+      <workItem from="1552957687878" duration="14826000" />
+      <workItem from="1553006474113" duration="1414000" />
+      <workItem from="1553009253454" duration="1626000" />
+      <workItem from="1553043043796" duration="1212000" />
+      <workItem from="1553044672907" duration="11755000" />
+      <workItem from="1553090619213" duration="10910000" />
+      <workItem from="1553137621444" duration="7477000" />
+      <workItem from="1553173801506" duration="1263000" />
+      <workItem from="1553216138714" duration="19888000" />
+      <workItem from="1553473973243" duration="4154000" />
+      <workItem from="1553562513664" duration="7185000" />
+      <workItem from="1553648394790" duration="4431000" />
+      <workItem from="1553683558565" duration="679000" />
+      <workItem from="1553693119207" duration="838000" />
+      <workItem from="1553734996360" duration="108000" />
+      <workItem from="1553736284430" duration="1767000" />
+      <workItem from="1553753588749" duration="2742000" />
+      <workItem from="1553829041740" duration="4063000" />
+      <workItem from="1554080640657" duration="5037000" />
+      <workItem from="1554172219151" duration="5609000" />
+      <workItem from="1554218974807" duration="221000" />
+      <workItem from="1554252726082" duration="596000" />
+      <workItem from="1554339385411" duration="2525000" />
+      <workItem from="1554721235474" duration="1366000" />
+      <workItem from="1554791109708" duration="587000" />
+      <workItem from="1554861227375" duration="2268000" />
+      <workItem from="1555292136167" duration="1319000" />
+      <workItem from="1555491595871" duration="1070000" />
+      <workItem from="1555549843403" duration="1669000" />
+      <workItem from="1555657606934" duration="596000" />
+      <workItem from="1555930975201" duration="11000" />
+      <workItem from="1556008053205" duration="2415000" />
+      <workItem from="1556069040313" duration="3000000" />
+      <workItem from="1556161728053" duration="2053000" />
+      <workItem from="1556240068046" duration="11410000" />
+      <workItem from="1556501157383" duration="5559000" />
+      <workItem from="1556585497401" duration="1822000" />
+      <workItem from="1557019928438" duration="3551000" />
+      <workItem from="1557063299778" duration="1559000" />
+      <workItem from="1557111660615" duration="7080000" />
+      <workItem from="1557190533588" duration="7479000" />
+      <workItem from="1557287593392" duration="6901000" />
+      <workItem from="1557363397923" duration="6160000" />
+      <workItem from="1557449803667" duration="8227000" />
+      <workItem from="1557651636493" duration="2939000" />
+      <workItem from="1557707179915" duration="598000" />
+      <workItem from="1557804072007" duration="794000" />
+      <workItem from="1557882402174" duration="599000" />
+      <workItem from="1557930147466" duration="42000" />
+      <workItem from="1557970695054" duration="599000" />
+      <workItem from="1558018185779" duration="599000" />
+      <workItem from="1558081804198" duration="3872000" />
+      <workItem from="1558102440449" duration="588000" />
+      <workItem from="1558364562896" duration="748000" />
+      <workItem from="1558400214461" duration="2297000" />
+      <workItem from="1558453409204" duration="402000" />
+      <workItem from="1558486694773" duration="3537000" />
+      <workItem from="1558573464627" duration="7217000" />
+      <workItem from="1558880776506" duration="2114000" />
+      <workItem from="1558917154784" duration="5496000" />
+      <workItem from="1558966137815" duration="1212000" />
+      <workItem from="1559008454170" duration="6308000" />
+      <workItem from="1559092176597" duration="2271000" />
+      <workItem from="1559178343773" duration="599000" />
+      <workItem from="1559227610888" duration="124000" />
+      <workItem from="1559281262879" duration="3526000" />
+      <workItem from="1559348376538" duration="14061000" />
+      <workItem from="1559536836303" duration="1056000" />
+      <workItem from="1559640028800" duration="956000" />
+      <workItem from="1559796155924" duration="599000" />
+      <workItem from="1560126157488" duration="1215000" />
+      <workItem from="1560309663403" duration="3454000" />
+      <workItem from="1560388755544" duration="599000" />
+      <workItem from="1560474247220" duration="1202000" />
+      <workItem from="1560522405047" duration="19000" />
+      <workItem from="1561517381531" duration="1944000" />
+      <workItem from="1561559047208" duration="1471000" />
+      <workItem from="1561603582327" duration="1173000" />
+      <workItem from="1561685679137" duration="987000" />
+      <workItem from="1561853852747" duration="1196000" />
+      <workItem from="1561946898538" duration="2713000" />
+      <workItem from="1562030086319" duration="598000" />
+      <workItem from="1562115433356" duration="1807000" />
+      <workItem from="1562202244677" duration="590000" />
+      <workItem from="1562228985922" duration="789000" />
+      <workItem from="1562288775118" duration="589000" />
+      <workItem from="1562546391877" duration="1645000" />
+      <workItem from="1563359033880" duration="2003000" />
+      <workItem from="1563411694661" duration="593000" />
+      <workItem from="1563504895637" duration="1204000" />
+      <workItem from="1563753913279" duration="598000" />
+      <workItem from="1563932685924" duration="592000" />
+      <workItem from="1564016560935" duration="587000" />
+      <workItem from="1564103638629" duration="595000" />
+      <workItem from="1564358715760" duration="592000" />
+      <workItem from="1564621376382" duration="2178000" />
+      <workItem from="1564728739126" duration="598000" />
+      <workItem from="1565178698640" duration="588000" />
+      <workItem from="1565246670714" duration="594000" />
+      <workItem from="1565321246150" duration="1277000" />
+      <workItem from="1565744572869" duration="3061000" />
+      <workItem from="1565860818815" duration="1800000" />
+      <workItem from="1565924391036" duration="596000" />
+      <workItem from="1566174868446" duration="598000" />
+      <workItem from="1566263168185" duration="595000" />
+      <workItem from="1566349787819" duration="589000" />
+      <workItem from="1588190412942" duration="5380000" />
+      <workItem from="1588207037439" duration="5306000" />
+      <workItem from="1588380392674" duration="1661000" />
+      <workItem from="1588466946315" duration="13196000" />
+      <workItem from="1588614231118" duration="23099000" />
+      <workItem from="1588735393279" duration="4528000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="343980000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.061458334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1679473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32596686" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24751382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2375" sideWeight="0.48550725" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.25321338" sideWeight="0.51449275" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/account/controller/AccountController.java</url>
+          <line>297</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/user/controller/UserController.java</url>
+          <line>199</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/vaccineSku/controller/VaccineSkuController.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/vaccinePrice/controller/VaccinePriceController.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/uustop/common/utils/file/FileUploadUtils.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/user/controller/IndexController.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/mfrs/controller/MfrsPrestoreController.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/noticeRecord/service/NoticeRecordServiceImpl.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="33" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/logs/sys-error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="8896" column="83" lean-forward="false" selection-start-line="8896" selection-start-column="83" selection-end-line="8896" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/operate/CdcSalesSituationMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/common/utils/security/ShiroUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/framework/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/mfrs/controller/MfrsPrestoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/noticeRecord/service/NoticeRecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/common/PersonUtil/mapper/PersonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/noticeRecord/service/INoticeRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="78" column="16" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/PersonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding>
+            <marker date="1588675046288" expanded="true" signature="2633:2693" ph="select * fro... enterprise" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/user/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/main/service/IMainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/main/service/IMainServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/MainMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/main/mapper/MainMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/operate/MfrsPrestoreMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/operate/MfrsDeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/user/controller/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="145" column="19" lean-forward="false" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/picture/domain/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/userRole/controller/PromUserRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/dept/controller/PromDeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/customer/controller/CustomerController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/disease/controller/DiseaseController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/vaccineTypes/domain/VaccineTypes.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/mfrs/service/IMfrsPictureService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/stock/controller/StockController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/contract/controller/ContractController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/invoice/controller/InvoiceController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/mfrs/controller/MfrsStatisticsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/mfrs/service/MfrsPictureServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/company/domain/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/mfrs/domain/MfrsStatistics.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/picture/mapper/PictureMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/accountPeriod/controller/AccountPeriodController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/show/domain/Show.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/returngoods/controller/ReturngoodsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/show/controller/ShowController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/salesSituation/controller/CdcSalesSituationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/statistics/controller/ContractStatisticsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/operate/account/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/main/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/system/menu/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/proLinkman/controller/ProLinkmanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/company/controller/CompanyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5016">
+          <caret line="245" column="17" lean-forward="true" selection-start-line="245" selection-start-column="17" selection-end-line="245" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/account/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uustop/project/operate/account/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="2" column="58" lean-forward="false" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="120" column="30" lean-forward="false" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/zxcss/index.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/operate/mfrs/auditMfrsPrestore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1588662987478" expanded="true" signature="4847:4853" ph="&amp;nbsp;" />
+            <marker date="1588662987478" expanded="true" signature="4853:4859" ph="&amp;nbsp;" />
+            <marker date="1588662987478" expanded="true" signature="4860:4866" ph="&amp;nbsp;" />
+            <marker date="1588662987478" expanded="true" signature="4866:4872" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/operate/mfrs/mfrsNonEssential.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>hbsj:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37281552" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (ymgj)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37281552" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37281552" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37281552" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ymgj</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37281552" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37281552" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

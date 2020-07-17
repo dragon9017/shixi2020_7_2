@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<meta charset="utf-8">
+<head th:include="include :: header"></head>
+<body class="white-bg">
+<div class="wrapper wrapper-content animated fadeInRight ibox-content">
+    <form class="form-horizontal m" id="form-student-edit" th:object="${student}">
+        <input name="s_user_id" type="hidden" th:field="*{s_user_id}"/>
+        <input name="s_login_name" type="hidden" th:field="*{s_login_name}"/>
+        <input name="s_dept_id" type="hidden" th:field="*{s_dept_id}" id="treeId"/>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">学生班级：</label>
+            <div class="col-sm-3">
+                <input class="form-control"  th:field="*{s_dept_id}" type="text" name="s_dept_id"  id="s_dept_id">
+            </div>
+            <label class="col-sm-2 control-label">学生姓名：</label>
+            <div class="col-sm-3">
+                <input class="form-control" type="text" name="s_user_name" id="s_user_name" th:field="*{s_user_name}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">学生邮箱：</label>
+            <div class="col-sm-3">
+                <input class="form-control" type="text" name="s_email" id="s_email"  th:field="*{s_email}" >
+            </div>
+            <label class="col-sm-2 control-label">绑定手机号：</label>
+            <div class="col-sm-3">
+                <input class="form-control" type="text" name="s_phonenumber" id="s_phonenumber" th:field="*{s_phonenumber}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">性别：</label>
+            <div class="col-sm-3">
+                <select id="s_sex" class="form-control m-b isSelect2" th:with="type=${@dict.getType('sys_user_sex')}">
+                    <option th:each="dict : ${type}" th:text="${dict.dictLabel}" th:value="${dict.dictValue}"
+                           ></option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">角色：</label>
+            <div class="col-sm-6">
+                <label th:each="role:${roles}" class="check-box">
+                    <input name="role" type="checkbox" th:value="${role.roleId}" th:text="${role.roleName}"
+                           th:checked="${role.flag}" th:readonly="${role.status == '1'}">
+                </label>
+            </div>
+        </div>
+    </form>
+</div>
+<div th:include="include::footer"></div>
+<script th:src="@{/ajax/libs/select/select2.js}"></script>
+<script>
+    $("#form-student-edit").validate({
+        rules: {
+            s_depd_id: {
+                required: true
+            },
+            s_user_name: {
+                required: true
+            },
+            s_email: {
+                required: true,
+                email: true,
+                isMail:true,
+                remote: {
+                    url: ctx + "system/student/checkEmailUnique",
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        "s_user_id": function () {
+                            return $("#s_user_id").val();
+                        },
+                        "s_email": function () {
+                            return $.common.trim($("#s_email").val());
+                        }
+                    },
+                    dataFilter: function (data, type) {
+                        return $.validate.unique(data);
+                    }
+                }
+            },
+            s_phonenumber: {
+                required: true,
+                isPhone: true,
+                remote: {
+                    url: ctx + "system/student/checkPhoneUnique",
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                        "s_user_id": function () {
+                            return $("#s_user_id").val();
+                        },
+                        "s_phonenumber": function () {
+                            return $.common.trim($("#s_phonenumber").val());
+                        }
+                    },
+                    dataFilter: function (data, type) {
+                        return $.validate.unique(data);
+                    }
+                }
+            },
+            password: {
+                required: true,
+                isPassword: true
+            },
+        },
+        messages: {
+            "email": {
+                remote: "Email已经存在"
+            },
+            "phonenumber": {
+                remote: "手机号已经存在"
+            },
+            "password": {
+                isPassword: "请输入至少八个字符，至少一个字母和一个数字"
+            }
+        },
+        submitHandler: function (form) {
+            edit();
+        }
+    });
+
+    function submitHandler() {
+        if ($.validate.form()) {
+            edit();
+        }
+    }
+    /*更行数据*/
+    function edit() {
+        var s_user_id = $("input[name='s_user_id']").val();
+        var s_dept_id = $("input[name='s_dept_id']").val();
+        var s_user_name = $("input[name='s_user_name']").val();
+        var s_email = $("input[name='s_email']").val();
+        var s_phonenumber = $("input[name='s_phonenumber']").val();
+        var s_login_name = $("input[name='s_login_name']").val();
+        var s_sex = $("#s_sex option:selected").val();
+        var s_sataus = 0;
+        var roleIds = $.form.selectCheckeds("role");
+        var postIds = $.form.selectSelects("post");
+        $.ajax({
+            cache: true,
+            type: "POST",
+            url: ctx + "system/student/edit",
+            data: {
+                "s_user_id": s_user_id,
+                "s_dept_id": s_dept_id,
+                "s_user_name": s_user_name,
+                "s_email": s_email,
+                "s_phonenumber": s_phonenumber,
+                "s_sex": s_sex,
+                "s_sataus": s_sataus,
+                "s_login_name": s_login_name,
+                "roleIds": roleIds,
+                "postIds": postIds
+            },
+            async: false,
+            error: function (request) {
+                $.modal.alertError("系统错误");
+            },
+            success: function (data) {
+                alert("成功别难过了")
+                $.operate.successCallback(data);
+            }
+        });
+    }
+
+    /*用户管理-修改-选择组织机构树*/
+    function selectDeptTree() {
+        var deptId = $("#treeId").val();
+        var url = ctx + "system/dept/selectDeptTree/" + deptId;
+        var options = {
+            title: '选择组织机构',
+            width: "380",
+            url: url,
+            callBack: doSubmit
+        };
+        $.modal.openOptions(options);
+    }
+
+    function doSubmit(index, layero) {
+        var tree = layero.find("iframe")[0].contentWindow.$._tree;
+        if ($.tree.notAllowParents(tree)) {
+            var body = layer.getChildFrame('body', index);
+            $("#treeId").val(body.find('#treeId').val());
+            $("#treeName").val(body.find('#treeName').val());
+            layer.close(index);
+        }
+    }
+</script>
+</body>
+</html>
